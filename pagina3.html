@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles.css" />
+    <title>HerramientasExpress</title>
+</head>
+<body class="Pagina">
+    <header class="Ferreteria">
+        <div class="title-box">
+            <div class="logo-container">
+                <img src="img/logo.jpg.jpg" alt="Logo de HerramientasExpress" />
+            </div>
+            <h1>HerramientasExpress</h1>
+        </div>
+    </header>
+    
+    <div class="contenido">
+        <div class="filtros">
+            <div class="categorias">
+                <p>Categorias</p>
+                <a href="#" id="categoriasItem" categorias="all">Todos</a>
+                <a href="#" id="categoriasItem" categorias="Herramientas manuales">Herramientas manuales</a>
+                <a href="#" id="categoriasItem" categorias="Herramientas Electricas">Herramientas Electricas</a>
+                <a href="#" id="categoriasItem" categorias="Herramientas de jardin">Herramientas de jardin</a>
+            </div>
+            <div class="campos-filtro">
+                <label for="filtroNombre">Nombre:</label>
+                <input type="text" id="filtroNombre" placeholder="Ingrese el nombre" />
+            </div>
+        </div>
+
+        <div class="herramientas">
+            <div class="menu-container" onclick="mostrarDescripcion(this)">
+                <img src="img/Flexometro.jpg" alt="Imagen 1" />
+                <p>Flexómetro 5 Metros Stanley 30 615 Negro Con Amarillo</p>
+                <p>Precio: $20.251</p>
+                <div class="descripcion" style="display: none;">
+                    <p> Características del producto:<p>
+                        Marca:
+                        Stanley<p>
+                        Modelo:
+                        30-615<p>
+                        Formato de venta:
+                        Unidad<p>
+                        Otras características:<p>
+                        Largo de la cinta:
+                        5 m<p>
+                        Ancho de la cinta:
+                        19 mm<p>
+                        Peso:
+                        220 g<p>
+                        Es retráctil:
+                        Sí<p>
+                        Es plegable:
+                        No<p>
+                        Con botón de tranca:
+                        Sí<p>
+                        Con gancho magnético:
+                        No<p>
+                        Con diseño ergonómico:
+                        Si</p>
+                </div>
+            </div>
+            
+
+            <div class="menu-container" onclick="mostrarDescripcion(this)">
+                <img src="img/Bombillo led.jpg" alt="Imagen 2" />
+                <p>Bombillo Led 3w Uduke Luz Dia E27 Multivoltage (6500k)</p>
+                <p>Precio: $3.500</p>
+                <div class="descripcion" style="display: none;">
+                    <p>Descripción:<p>
+                        Tener una buena iluminación en los espacios que habitamos influye en la manera como nos sentimos, nos relajamos, trabajamos o estudiamos. Es por ello que el bombillo Uduke HT80394 puede ser una excelente opción si quieres crear un ambiente agradable y funcional.</p>
+            </div>
+            </div>
+            <div class="menu-container" onclick="mostrarDescripcion(this)">
+                <img src="img/Esmeril.jpg" alt="imagen 3" />
+                <p>Esmeril Electrico 6 150w Total (utbg15015) Color Turquesa Frecuencia 60 Hz 110V - 120V</p>
+                <p>Precio: $199.900</p>
+                <div class="descripcion" style="display: none;">
+                    <p>Características:<p>
+
+                        Apto para un disco de 150 mm de diámetro.
+                        Trae interruptor tecla.<p>
+                        Su potencia es de 150 W.<p>
+                        Velocidad máxima de rotación de 3450 rpm.<p>
+                        Pesa 5 kg.<p>
+                        Herramienta versátil para distintos usos.<p>
+                        Protector de disco incorporado.<p>
+                        Incluye:disco abrasivo</p>
+            </div>
+            </div>
+            <div class="menu-container" onclick="mostrarDescripcion(this)">
+                <img src="img/Ducha magica.jpg" alt="imagen 4" />
+                <p>Ducha Electrica Kontiki Automatica Tradicional 120v (k-104)</p>
+                <p>Precio: $76.900</p>
+                <div class="descripcion" style="display: none;">
+                    <p>Características principales:<p>
+                        Marca:
+                        Genérica<p>
+                        Modelo:
+                        Generic<p>
+                        Otras características:<p>
+                        Altura:
+                        29 cm<p>
+                        Ancho:
+                        28 cm<p>
+                        Profundidad:
+                        38 cm<p>
+                        Peso
+                        2 kg</p>
+            </div>
+            </div>
+            <div class="menu-container" onclick="mostrarDescripcion(this)">
+                <img src="img/Martillo chipote.jpg" alt="imagen 5" />
+                <p>Martillo Chipote 8oz Mango Fibra Vidrio Total (tht76816)</p>
+                <p>Precio: $15.900</p>
+                <div class="descripcion" style="display: none;">
+                    <p>Características principales:<p>
+                        Marca:
+                        Total<p>
+                        Modelo:
+                        THT76816<p>
+                        Tipo de martillo:
+                        -1<p>
+                        Peso del martillo:
+                        250 g<p>
+                        Otras características:<p>
+                        Largo del martillo:
+                        20 cm<p>
+                        Material de la cabeza:
+                        Goma<p>
+                        Material de la manija:
+                        Goma</p>
+            </div>
+            </div>
+            <div class="menu-container" onclick="mostrarDescripcion(this)">
+                <img src="img/Mochila PortaHerramientas.jpg" alt="Imagen 6" />
+                <p>Mochila Porta Herramientas Stanley Stst515155la Color Negro</p>
+                <p>Precio: $208.810</p>
+                <div class="descripcion" style="display: none;">
+                    <p>Características principales:<p>
+                        Marca:
+                        Stanley<p>
+                        Modelo:
+                        STST515155LA<p>
+                        Color:
+                        Negro</p>
+            </div>
+            </div>
+            <div class="menu-container" onclick="mostrarDescripcion(this)">
+                <img src="img/Taladro atornillador.jpg" alt="Imagen 7" />
+                <p>Taladro atornillador inalámbrico de 10" Black+Decker BCD702C1 20V + 1 batería de 1.5Ah + accesorios con caja de cartón 110V/220V</p>
+                <p>Precio: $242.208</p>
+                <div class="descripcion" style="display: none;">
+                    <p>Lo que tienes que saber de este producto:<p>
+                        Con función reversa.<p>
+                        Viene con caja de cartón.<p>
+                        Cuenta con función destornillador.<p>
+                        Velocidad máxima de rotación: 650rpm.<p>
+                        Con batería incluida de Li-ion.<p>
+                        Tiempo de carga de la batería: 4h.<p>
+                        Posee control de torque.<p>
+                        Tiene luz led.<p>
+                        Dimensiones: 8cm de ancho, 22cm de alto y 28cm de largo.<p>
+                        Incluye: Batería,Cargador</p>
+            </div>
+            </div>
+            <div class="menu-container" onclick="mostrarDescripcion(this)">
+                <img src="img/Timbre campana.jpg" alt="Imagen 8" />
+                <p>Timbre Campana Industrial 6 Rojo Vera</p>
+                <p>Precio: $ 29.900</p>
+                <div class="descripcion" style="display: none;">
+                    <p>Descripción<p>
+                        Presentamos el Timbre Campana Industrial 6" Rojo Vera, un producto de la marca genérica que se destaca por su funcionalidad y diseño. Este timbre campana es ideal para uso en entornos industriales, gracias a su robustez y durabilidad. Su color rojo vibrante lo hace fácilmente visible, lo que es esencial en un entorno de trabajo ruidoso y ocupado.<p>
+                        
+                        El modelo 16500 es compacto y ligero, con un peso de paquete de solo 1 kg, lo que facilita su instalación y manejo. A pesar de su tamaño compacto, este timbre campana industrial produce un sonido claro y fuerte, lo que garantiza que las alertas y anuncios se escuchen en todo el lugar de trabajo.<p>
+                        
+                        Este producto viene con los códigos EAN y GTIN 7704495233273, lo que garantiza su autenticidad y calidad. Además, su SKU es 16500, lo que facilita su seguimiento y gestión de inventario.<p>
+                        
+                        En resumen, el Timbre Campana Industrial 6" Rojo Vera es una opción confiable y eficiente para todas sus necesidades de alerta y comunicación en el lugar de trabajo. Su diseño resistente y su sonido potente lo hacen ideal para cualquier entorno industrial.<p>
+            </div>
+            </div>
+            <div class="menu-container" onclick="mostrarDescripcion(this)">
+                <img src="img/Bomnillo led tipo.jpg" alt="Imagen 9" />
+                <p>Bombillo Led Tipo Ufo 30w E27 (bbl-30 Ufo 30w)</p>
+                <p>Precio: $19.260</p>
+                <div class="descripcion" style="display: none;">
+                <p>Descripción: <p>
+                    Presentamos el Bombillo LED Tipo UFO 30W E27 (BBL-30 UFO 30W), un producto de alta calidad de la marca genérica. Este bombillo es una opción de iluminación eficiente y duradera para cualquier espacio. Con su modelo 16817, este bombillo LED se destaca por su diseño tipo UFO, que no solo es moderno y estético, sino que también proporciona una distribución de luz más amplia y uniforme.<p>
+                    
+                    El Bombillo LED Tipo UFO 30W E27 (BBL-30 UFO 30W) tiene una potencia de 30W, lo que significa que puede proporcionar una iluminación brillante y clara, pero al mismo tiempo, consume menos energía que los bombillos tradicionales, lo que lo convierte en una opción ecológica y económica.<p>
+                    
+                    Este bombillo tiene una base E27, lo que lo hace compatible con la mayoría de las lámparas y accesorios de iluminación. Además, su peso de 1 kg lo hace fácil de manejar e instalar. Con su código EAN y GTIN 6906020001109, puede estar seguro de su autenticidad y calidad.<p>
+                    
+                    En resumen, el Bombillo LED Tipo UFO 30W E27 (BBL-30 UFO 30W) es una opción de iluminación confiable, eficiente y de alta calidad que seguramente satisfará sus necesidades de iluminación.</p>
+            </div>
+        </div>
+        <div class="menu-container" onclick="mostrarDescripcion(this)">
+                <img src="img/Set llves.jpg" alt="Imagen 10" />
+                <p>Set Juego de Llaves Medianas Allen Hexagonal 9 Piezas TOTAL
+                    SKU: THT106191</p>
+                <p>Precio: $18.900</p>
+                <div class="descripcion" style="display: none;">
+                    <p>Descripción:<p>
+                        Set Juego de Llaves Medianas Allen Hexagonal 9 Piezas TOTAL<p>
+                        SKU: THT106191<p>
+                        
+                        Este kit de Llaves Allen te permitirá atornillar o desatornillar tuercas con cabeza interior hexagonal.<p>
+                        
+                        ESPECIFICACIONES:<p>
+                        - Calidad: Industrial<p>
+                        - Tratamiento térmico y cromado<p>
+                        - Material: Cr-v<p>
+                        - Tamaños: 1.5mm, 2mm, 2.5mm, 3mm, 4mm, 5mm, 6mm, 8mm y 10mm.<p>
+                        
+                        INFORMACIÓN RELEVANTE: <p>
+                        Algunos de nuestros productos podrían traer enchufes con patas diferentes a las que se usan en Chile, solo necesitará un adaptador llamado Schuko de 16 Amperios. Este adaptador lo puede encontrar en cualquier ferretería o casa electrónica. No necesitará un transformador de voltaje ya que automáticamente se ajusta al voltaje que esté conectado.<p>
+                        
+                        Todos los productos son 100% originales y nuevos.<p>
+                        
+                        Cada una de las publicaciones muestra el stock disponible. En caso de no contar con stock, la publicación queda pausada automáticamente.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <section class="pagination">
+        <ul>
+            <li><a href="Pagina.html">1</a></li>
+            <li><a href="Pagina2.html">2</a></li>
+            <li><a href="pagina3.html">3</a></li>
+            <li><a href="pagina4.html">4</a></li>
+            <li><a href="pagina5.html">5</a></li>
+        </ul>
+    </section>
+
+    <div class="pagination">
+        <ul id="elementList" class="pagination-list">
+            <li><button id="prevBtn" onclick="cambiarPagina(-1)">Anterior</button></li>
+            <li><button id="nextBtn" onclick="cambiarPagina(1)">Siguiente</button></li>
+        </ul>
+    </div>
+    <script src="f.js"></script>
+    
